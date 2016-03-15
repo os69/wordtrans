@@ -22,7 +22,7 @@ jpm run -b /usr/bin/firefox
 ```
 
 ## Using a Custom Translation Provider
-Use the [provider](https://github.com/os69/wordtrans/blob/master/data/providers/custom.js) as a template. 
+Use the [provider](https://raw.githubusercontent.com/os69/wordtrans/master/data/providers/custom.js) as a template. 
 In the Add-on preferences maintian the URL to your custom translation provider. For local testing you can
 use a file URL like:
 ```

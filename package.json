@@ -1,14 +1,14 @@
 {
 	"title": "wordtrans",
 	"name": "wordtrans",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Translate individual words of a page by hovering with the mouse over the word.\nEnable the translator by clicking on the translator toggle button in the Firefox toolbar.\n",
 	"main": "index.js",
 	"author": "Oliver Scheerer",
 	"engines": {
-		"firefox": ">=38.0a1",
-		"fennec": ">=38.0a1"
+		"firefox": ">=38.0a1"
 	},
+	"homepage": "https://github.com/os69/wordtrans",
 	"license": "MIT",
 	"keywords": ["jetpack"],
 	"preferences": [{
@@ -1196,7 +1196,8 @@
 	}, {
 		"type": "string",
 		"name": "customServiceUrl",
-		"value": "file:///custom.js",
-		"title": "URL to Custom Translation Service"
+		"value": "file:///home/john/custom.js",
+		"title": "URL to Custom Translation Service",
+		"description": "Add the URL to a custom translation provider. See https://raw.githubusercontent.com/os69/wordtrans/master/data/providers/custom.js for a template. For local setup  you can use a file URL like file:///home/john/custom.js"
 	}]
 }
