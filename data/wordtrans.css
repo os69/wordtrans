@@ -1,0 +1,29 @@
+a.wordtransclose {
+	float: right;
+	margin-top: -20px;
+	margin-right: -20px;
+	cursor: pointer;
+	color: #fff;
+	border: 1px solid #AEAEAE;
+	border-radius: 20px;
+	background: #605F61;
+	font-size: 21px;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 0px;
+	padding: 10px 3px;
+}
+
+.wordtransclose:before {
+	content: "×";
+}
+
+.wordtrans td {
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.wordtrans table {
+	margin: 0;
+}
